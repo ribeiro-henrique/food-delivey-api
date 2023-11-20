@@ -1,9 +1,125 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "ingredientes": {
+    "acai": [
+      {
+        "id": 1,
+        "tipo": "Açaí Tradicional"
+      },
+      {
+        "id": 2,
+        "tipo": "Açaí com Ninho"
+      },
+      {
+        "id": 3,
+        "tipo": "Açaí com Menta"
+      }
+    ],
+    "tamanho": [
+      {
+        "id": 1,
+        "tipo": "250ml"
+      },
+      {
+        "id": 2,
+        "tipo": "500ml"
+      },
+      {
+        "id": 3,
+        "tipo": "750ml"
+      },
+      {
+        "id": 4,
+        "tipo": "Barca 1,5L"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Nutela"
+      },
+      {
+        "id": 2,
+        "tipo": "Bis"
+      },
+      {
+        "id": 3,
+        "tipo": "Leite Condensado"
+      },
+      {
+        "id": 4,
+        "tipo": "Morango"
+      },
+      {
+        "id": 5,
+        "tipo": "Raspa de Chocolate"
+      },
+      {
+        "id": 6,
+        "tipo": "Granulado"
+      },
+      {
+        "id": 7,
+        "tipo": "Granola"
+      },
+      {
+        "id": 8,
+        "tipo": "Banana"
+      },
+      {
+        "id": 9,
+        "tipo": "Mel"
+      },
+      {
+        "id": 10,
+        "tipo": "Cereja"
+      },
+      {
+        "id": 11,
+        "tipo": "Paçoca"
+      },
+      {
+        "id": 12,
+        "tipo": "Leite em pó"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "roxinhos": [
+    {
+      "nome": "Henrique Ribeiro",
+      "tamanho": "750ml",
+      "ac": "Açaí com Ninho",
+      "opcionais": [
+        "Nutela",
+        "Bis",
+        "Morango"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Thamires",
+      "tamanho": "500ml",
+      "ac": "Açaí Tradicional",
+      "opcionais": [
+        "Mel",
+        "Paçoca"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    }
+  ]
 }
